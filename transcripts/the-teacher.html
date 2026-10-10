@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Teacher | The Lorak Codex</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    background: #0b0b0b;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 2px solid #d4af37;
+    margin-bottom: 25px;
+}
+
+header h1 {
+    color: #d4af37;
+    letter-spacing: 3px;
+    margin: 0;
+}
+
+header p {
+    color: #aaa;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+}
+
+.back {
+    display: block;
+    color: #d4af37;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.back:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    color: #d4af37;
+    letter-spacing: 2px;
+    margin-top: 0;
+}
+
+.mission-button {
+    width: 100%;
+    background: #d4af37;
+    color: #0b0b0b;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 15px;
+    margin: 0 0 10px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.mission-button::after {
+    content: "+";
+    float: right;
+    font-size: 18px;
+}
+
+.mission-button.active::after {
+    content: "−";
+}
+
+.mission-content {
+    display: none;
+    padding: 0 0 10px;
+}
+
+.section-title {
+    color: #d4af37;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.dialogue-box {
+    background: #111;
+    border: 1px solid #66551d;
+    border-radius: 5px;
+    padding: 12px 15px;
+    margin: 10px 0;
+    white-space: pre-line;
+}
+
+footer {
+    text-align: center;
+    color: #d4af37;
+    border-top: 1px solid #d4af37;
+    margin-top: 35px;
+    padding-top: 15px;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    .mission-button {
+        font-size: 15px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>THE LORAK CODEX</h1>
+    <p>WARFRAME LORE ARCHIVE</p>
+</header>
+
+<main>
+
+<a class="back" href="../transcripts.html">← Back to Transcripts</a>
+
+<h2>THE TEACHER</h2>
+
+<button class="mission-button" onclick="toggleMission(this)">1. Introduction</button>
+<div class="mission-content">
+
+    <div class="section-title">Introduction</div>
+    <div class="dialogue-box">Lotus: "Tenno. With Vor gone, Corpus forces have begun to scavenge his camps. Intel suggests they have detected a signal emanating from some reactivated Orokin-era technology. Move in and find the source of that signal before they do."</div>
+
+</div>
+
+<button class="mission-button" onclick="toggleMission(this)">2. The Relic [Earth]</button>
+<div class="mission-content">
+
+    <div class="section-title">Investigate the signal</div>
+    <div class="dialogue-box">Lotus: "Careful. There are Corpus heat signatures ahead. Move towards the source of the signal. I will try and patch you into their comms."</div>
+
+    <div class="section-title">Recover the Mod Segment</div>
+    <div class="dialogue-box">Treasurer: "Vor's demise is our golden opportunity. Corpus! Bring me the Orokin Mod Segment that our dearest benefactor, Nef Anyo, so deeply desires. Now, enough of this idleness. Go."
+
+Lotus: "The technology is a Mod Segment? That must stay out of Corpus hands at all costs! Tenno, recover it immediately."
+
+Lotus: "Neither Grineer or Corpus have the authorization to activate an Orokin-era distress beacon. So who did? Be wary."</div>
+
+    <div class="section-title">Take the Mod Segment</div>
+    <div class="dialogue-box">Teshin: "Hmmm... Am I to believe that you are the Tenno who cut down the mighty Vor? Even these covetous merchants avoided triggering the segment's anti-tampering routine."</div>
+
+    <div class="section-title">Defeat the Corpus</div>
+    <div class="dialogue-box">Lotus: "That voice!"
+
+Teshin: "The Tenno I remember could find their enemy's weakness faster than the kubrodon finds a jugular. What happened to you?"
+
+Lotus: "What are you doing here?"
+
+Teshin: "I need to see for myself. Have the Tenno risen or is this another Lotus trick?"</div>
+
+    <div class="section-title">Cutscene</div>
+    <div class="dialogue-box">Lotus: "Teshin Dax."
+
+Lotus: "This Tenno is not your foe."
+
+Teshin: "We shall see."
+
+Lotus: "Tenno!"</div>
+
+</div>
+
+<button class="mission-button" onclick="toggleMission(this)">3. Teshin’s Dojo [Earth]</button>
+<div class="mission-content">
+
+    <div class="section-title">Teshin's Dojo</div>
+    <div class="dialogue-box">Teshin: "Do you even remember the Old War?"
+
+Teshin: "Well, you wouldn't anyway."
+
+Teshin: "She made sure all the Tenno forgot. A mercy I suppose.
+
+Teshin: "Finally. You have rested too long. Get up. Now."
+
+Teshin: "I have disabled your Warframe's abilities. Orokin tricks won't help you now. Pick up that weapon."</div>
+
+    <div class="section-title">Acquiring Thornback</div>
+    <div class="dialogue-box">Teshin: "Your life depends on you proving to me that you are a Tenno and not some imposter. Now, try and cut me down!"
+
+Lotus: "Ten- where-."
+
+Teshin: "We are beyond her reach. You are alone."</div>
+
+    <div class="section-title">Fighting Teshin</div>
+    <div class="dialogue-box">Teshin Barks
+
+Teshin: "What are you? Another mimic?"
+
+Teshin: "What feeble game is the Lotus playing?"
+
+Teshin: "Promising."</div>
+
+    <div class="section-title">First Health Bar Depleted</div>
+    <div class="dialogue-box">Teshin: "You do remember."</div>
+
+    <div class="section-title">After Second Health Bar Depleted</div>
+    <div class="dialogue-box">Teshin: "Yes! A Tenno indeed. How long I have waited for this day. Stand down. We have much to review, and little time to do so."
+
+Teshin: "Come with me."
+
+Teshin: "Your weapons bear no mods. Your Orbiter - no Mod Segment. Can the Lotus not provide even the simplest- It matters not, I now have one in my Arsenal."
+
+Teshin: "Your first lesson is simple. Destroy these targets."</div>
+
+    <div class="section-title">After Shooting Target Orbs</div>
+    <div class="dialogue-box">Teshin: "Can you not see? They are outfitted with advanced shields, vulnerable only to Electric elemental attacks. Your body remembers the stances, but your mind has forgotten your studies. Use my Arsenal and upgrade your weapon."</div>
+
+    <div class="section-title">After Installing Stormbringer Mod to Thornbak</div>
+    <div class="dialogue-box">Teshin: "Now, try again."
+
+Teshin: "See? Mods were the hidden power behind the Orokin's military. Capable of turning simple weapons into implements of mass destruction. Fueled by the miracle of Endo, they can be endlessly rearranged and tailored to cut through the defenses of any foe."
+
+Teshin: "Next lesson, see how your weapon fares against these targets."
+
+Teshin: "These shields are only weak to Magnetic elemental damage."
+
+Teshin: "Remember your Alchemy. When Electricity combines with Cold you create a Magnetic field. Apply your mods accordingly."</div>
+
+    <div class="section-title">After Installing Cryo Rounds Mod to Thornbak</div>
+    <div class="dialogue-box">Teshin: "See? So simple, even a child could do it. Now test your work."
+
+Teshin: "Not bad. next we will-"
+
+Teshin: "Right on schedule. Show these Corpus all you have learned."</div>
+
+    <div class="section-title">Corpus Invasion</div>
+    <div class="dialogue-box">Treasurer: "Didn't think I would find you? Ha, you underestimate my tenacity and desire!"
+
+Teshin: "Your Warframe is fragile. How has the Lotus allow you to enter battle in this state?"</div>
+
+    <div class="section-title">After Installing Vitality Mod to Warframe</div>
+    <div class="dialogue-box">Teshin: "Let us try this again."
+
+Teshin: "Much better. That was the scouts, but the cavalry gather. Collect your weapons and take whatever Mods you need. We have little time."
+
+Teshin: "I will take care of these mercenaries. Take the Mod Segment. It is too valuable to fall into Corpus hands."
+
+Teshin: "Take the Segment and go. I am not done here."
+
+Teshin: "Go! Now!"
+
+Lotus: "Tenno! Tenno? Get to extraction. Is that a Mod Segment?"</div>
+
+</div>
+
+<button class="mission-button" onclick="toggleMission(this)">4. Applied Learning</button>
+<div class="mission-content">
+
+    <div class="section-title">Applied Learning</div>
+    <div class="dialogue-box">Treasurer: "Oh my, Tenno. I've gone and captured your comrade. So... Let's make a deal. You bring me the Mod Segment. I release the Dax."
+
+Lotus: "Teshin gave you that Mod Segment? Maybe he can be trusted. Install it at once. You will need maximum power for your next mission."</div>
+
+    <div class="section-title">After Installing Mod Segment and Upgrading Stormbringer Mod</div>
+    <div class="dialogue-box">Lotus: "Good. When you are ready, find Teshin."</div>
+
+</div>
+
+<button class="mission-button" onclick="toggleMission(this)">5. The Final Test [Earth]</button>
+<div class="mission-content">
+
+    <div class="section-title">The Final Test</div>
+    <div class="dialogue-box">Lotus: "Teshin is deep within this ship. Cut through the Corpus and find him."
+
+Treasurer: "Sweet fortune. What are the odds? Another bird flies into my hands. Nef Anyo will pay dearly for the two of you. Corpus, take the Tenno. Dead or alive, it matters little."</div>
+
+    <div class="section-title">Arriving at Prison Cells</div>
+    <div class="dialogue-box">Lotus: "You found him. First, eliminate the Wardens."
+
+Lotus: "Get Teshin out of that cell!"
+
+Teshin: "She sent you to rescue me?"
+
+Lotus: "Not quite, Teshin. The Tenno is on a capture mission."
+
+Teshin: "Very well. If you think they are ready.”</div>
+
+    <div class="section-title">Fighting Teshin</div>
+    <div class="dialogue-box">First Health Bar Depleted
+
+Teshin: "You have already learned mod fusion. Did you show them this, Lotus?"
+
+Second Health Bar Depleted
+
+Teshin: "Yes. You are the Tenno I remember."
+
+Last Health Bar Depleted
+
+Teshin: "Okay, Lotus. Let's talk."
+
+Lotus: "One more order of business, Tenno. Scuttle this vessel."</div>
+
+    <div class="section-title">At Reactor Core</div>
+    <div class="dialogue-box">Lotus: "The reactor is protected by two control systems, you need to breach both systems to expose the reactor core."
+
+Lotus: "This is it. Take out the reactor."
+
+Treasurer: "Corpus! Stop that Tenno!!!"</div>
+
+    <div class="section-title">After Destroying Reactor Core</div>
+    <div class="dialogue-box">Lotus: "It is done. Now find extraction."
+
+Treasurer: "No. My ship. By the Tenets, how is this possible???"
+
+Lotus: "Treasurer, may I make a suggestion? Put out a distress call. When you do, let them all know, the Tenno are back."</div>
+
+    <div class="section-title">Extraction</div>
+    <div class="dialogue-box">Teshin: "Lotus... What you had the Tenno do to the Orokin? It was necessary. I concede that now. Will you tell them the truth of the matter?
+
+Lotus: "In time. There are difficult conversations ahead. They will need a mentor."
+
+Teshin: "You trust me to do this?"
+
+Lotus: "If you trust me to be their Lotus?"
+
+Teshin: "It is not my choice. It is theirs."</div>
+
+</div>
+
+</main>
+
+<footer>
+    THE LORAK CODEX
+</footer>
+
+<script>
+function toggleMission(button) {
+    const content = button.nextElementSibling;
+    const isOpen = content.style.display === "block";
+
+    button.classList.toggle("active", !isOpen);
+    button.setAttribute("aria-expanded", String(!isOpen));
+    content.style.display = isOpen ? "none" : "block";
+}
+</script>
+
+</body>
+</html>
